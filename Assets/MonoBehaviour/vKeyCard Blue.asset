@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10d0d8f79ecc7dda752133735826320, type: 3}
+  m_Name: vKeyCard Blue
+  m_EditorClassIdentifier:
+  id: 10
+  description: Blue Keycard to open doors
+  type: 0
+  icon: {fileID: 21300000, guid: 38833aa6e3fdd7d42ac84d1b36b41775, type: 2}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1028267667627767, guid: d3873d29b9bee9046ab0a30f879f3ff8, type: 2}
+  attributes: []
+  isInEquipArea: 0
+  destroyAfterUse: 1
+  canBeUsed: 1
+  canBeDroped: 1
+  canBeDestroyed: 1
+  displayAttributes: 1
+  EnableAnim:
+  DisableAnim:
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler:
+  twoHandWeapon: 0

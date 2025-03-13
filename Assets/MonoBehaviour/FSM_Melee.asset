@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1186bce80b1ee798ffc9d3a8c7ff70c5, type: 3}
+  m_Name: FSM_Melee
+  m_EditorClassIdentifier:
+  selectedNode: {fileID: 11400000, guid: c2ab5d9936753de43a2314afbcbe6fdf, type: 2}
+  wantConnection: 0
+  connectionNode: {fileID: 0}
+  showProperties: 1
+  states:
+  - {fileID: 11400000, guid: bdc3c0af0ea572a46b8b47f882511f00, type: 2}
+  - {fileID: 11400000, guid: 1bd8d0053952e9d46a8098d49083efa8, type: 2}
+  - {fileID: 11400000, guid: 7df044c3311a81a43a66e46ba84253ae, type: 2}
+  - {fileID: 11400000, guid: c607a5d2ce65d6f4dab324d9401a0014, type: 2}
+  - {fileID: 11400000, guid: 8d4d7e6024c532a4f8b20a2a2d06d6e2, type: 2}
+  - {fileID: 11400000, guid: 523be621ab5c0a64c87bff902739187b, type: 2}
+  - {fileID: 11400000, guid: c2ab5d9936753de43a2314afbcbe6fdf, type: 2}
+  - {fileID: 11400000, guid: 4af6a3e11f2406f4994f3e9f3717f9d9, type: 2}
+  - {fileID: 11400000, guid: a8b8b8d54c09d9b4b9e17d4e4374221c, type: 2}
+  panOffset: {x: 305, y: 125}
+  overNode: 0

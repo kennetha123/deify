@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316dbd2164c770e81fd9fe27a7bd85fe, type: 3}
+  m_Name: Combat
+  m_EditorClassIdentifier:
+  resetCurrentDestination: 0
+  transitions:
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 11400000, guid: da15adc4c5587224ab0697ba9cdf35d9, type: 2}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 11400000, guid: a8b8b8d54c09d9b4b9e17d4e4374221c, type: 2}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 1
+    transitionDelay: 0
+    parentState: {fileID: 11400000}
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 11400000, guid: d00636cc0540f954fac20acfd8a2313b, type: 2}
+      isValid: 1
+      validated: 0
+    - trueValue: 0
+      decision: {fileID: 11400000, guid: cced4d695a7ed824984bb5f2e4302d06, type: 2}
+      isValid: 1
+      validated: 0
+    trueState: {fileID: 11400000, guid: c2ab5d9936753de43a2314afbcbe6fdf, type: 2}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 11400000}
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 11400000, guid: bf6788f19a437a74e9e94cd0657b66f3, type: 2}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 11400000, guid: c2ab5d9936753de43a2314afbcbe6fdf, type: 2}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 11400000}
+  actions:
+  - {fileID: 11400000, guid: 26db364a3db287045955fe52ee59bd18, type: 2}
+  - {fileID: 11400000, guid: a4d486cbac2ef5940a2f50e81d884c7b, type: 2}
+  - {fileID: 11400000, guid: f05ad8964d119374baaffa84df45cac9, type: 2}
+  - {fileID: 11400000, guid: 9a2dae714c334594eb2ab5dad4efad14, type: 2}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000, guid: cd9c8a1b65a3157479056f587fcc462d, type: 2}
+  defaultTransition: {fileID: 0}
+  engageInStrafe: 1
+  engageSpeed: 2
+  combatSpeed: 2

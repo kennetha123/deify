@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d7ddd8bb092b22c4436a0df0b5e454, type: 3}
+  m_Name: gravelSurface
+  m_EditorClassIdentifier:
+  audioSource: {fileID: 82550862657543355, guid: 8f25711a8d5bea94b8acec15f4593f26, type: 2}
+  audioMixerGroup: {fileID: 24300008, guid: e3fa95f1f5136b0488c1dba9286d7fcd, type: 2}
+  TextureOrMaterialNames:
+  - soilSand
+  - gravel
+  audioClips:
+  - {fileID: 8300000, guid: 06a83e9f924fd6042b2fd69f35960750, type: 3}
+  - {fileID: 8300000, guid: 83075cda1690a7148b258802dc42bf85, type: 3}
+  - {fileID: 8300000, guid: 1386edf83bcf1ca46b84e4271be222ca, type: 3}
+  - {fileID: 8300000, guid: ae6f19eb52ebea340b3f9f2ed5f7e9e9, type: 3}
+  - {fileID: 8300000, guid: d58edcd34d9cd76419394625ad3c069b, type: 3}
+  - {fileID: 8300000, guid: a2c9308710d209847ac33c5fe3dfb938, type: 3}
+  particleObject: {fileID: 0}
+  useStepMark: 0
+  stepMark: {fileID: 0}
+  stepLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  timeToDestroy: 5

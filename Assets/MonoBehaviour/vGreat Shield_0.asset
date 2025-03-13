@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10d0d8f79ecc7dda752133735826320, type: 3}
+  m_Name: vGreat Shield
+  m_EditorClassIdentifier:
+  id: 9
+  description: "Melee Shield\nRecoil: Hard\nBonus: Break Attack "
+  type: 1
+  icon: {fileID: 21300000, guid: 58de9cae3c149324f96ef8ab4fb40835, type: 2}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1005835343801255, guid: 3443e40d317e74040b6c87cd1bd5284c, type: 2}
+  dropObject: {fileID: 1028267667627767, guid: d3873d29b9bee9046ab0a30f879f3ff8, type: 2}
+  attributes:
+  - name: 3
+    value: 0
+    isBool: 0
+  - name: 4
+    value: 100
+    isBool: 0
+  - name: 5
+    value: 90
+    isBool: 0
+  isInEquipArea: 0
+  destroyAfterUse: 0
+  canBeUsed: 0
+  canBeDroped: 1
+  canBeDestroyed: 1
+  displayAttributes: 1
+  EnableAnim: LowBack
+  DisableAnim: LowBack
+  enableDelayTime: 0.5
+  disableDelayTime: 0.5
+  customHandler: shieldHandler
+  twoHandWeapon: 0

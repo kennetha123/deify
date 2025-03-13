@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b044c48287ee3b0e9f13f4d157d4a4, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier:
+  resetCurrentDestination: 1
+  transitions:
+  - decisions: []
+    trueState: {fileID: 11400000, guid: 8d4d7e6024c532a4f8b20a2a2d06d6e2, type: 2}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 1
+    parentState: {fileID: 11400000}
+  actions:
+  - {fileID: 11400000, guid: 9a2dae714c334594eb2ab5dad4efad14, type: 2}
+  - {fileID: 11400000, guid: 8a99d69e0bb120e4480b7004f1a4b872, type: 2}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000, guid: cd9c8a1b65a3157479056f587fcc462d, type: 2}
+  defaultTransition: {fileID: 0}

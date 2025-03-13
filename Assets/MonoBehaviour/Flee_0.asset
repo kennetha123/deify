@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b044c48287ee3b0e9f13f4d157d4a4, type: 3}
+  m_Name: Flee
+  m_EditorClassIdentifier:
+  resetCurrentDestination: 0
+  transitions:
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 11400000, guid: c6b95feb271a8da44b2312dfdfa7ab0a, type: 2}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 11400000, guid: c607a5d2ce65d6f4dab324d9401a0014, type: 2}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 11400000}
+  actions:
+  - {fileID: 11400000, guid: 30d07141f46a4f048acc2adeb479495c, type: 2}
+  - {fileID: 11400000, guid: 048754f742c366446a2496acb420cc8c, type: 2}
+  - {fileID: 11400000, guid: e0f9ea6cf9a36ff438a39b28b6961b1e, type: 2}
+  - {fileID: 11400000, guid: 8a99d69e0bb120e4480b7004f1a4b872, type: 2}
+  - {fileID: 11400000, guid: bb16a704488868146822b113b2a0d5ae, type: 2}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000, guid: cd9c8a1b65a3157479056f587fcc462d, type: 2}
+  defaultTransition: {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1375355682, guid: 9b53c50941b207631c5c9215d0ace206, type: 3}
+  m_Name: AuraResourcesCollection
+  m_EditorClassIdentifier:
+  computeMaximumDepthComputeShader: {fileID: 7200000, guid: 9183845a21eb15b46866dcb05caf1802, type: 2}
+  computeVisibleCellsComputeShader: {fileID: 7200000, guid: 8086a2250942df4428bd792b744d46d7, type: 2}
+  computeDataComputeShader: {fileID: 7200000, guid: e4b08b6045ca1b94db48a4836f075ab3, type: 2}
+  computeAccumulationComputeShader: {fileID: 7200000, guid: 34fb0f85ac653374eacd3fd40273d998, type: 2}
+  renderLightProbesTextureComputeShader: {fileID: 7200000, guid: 0c6f2eeaa1935c8459125bd409353a97, type: 2}
+  applyDenoisingFilterComputeShader: {fileID: 7200000, guid: 4115065bd92566f46830bcd997468299, type: 2}
+  applyBlurFilterComputeShader: {fileID: 7200000, guid: 86b18665287ade64fa841cd7a08a03cf, type: 2}
+  processOcclusionMapShader: {fileID: 4800000, guid: fcc444a6683870c4ba92b1d2f409788f, type: 3}
+  postProcessShader: {fileID: 4800000, guid: 628d2a3a3b994b64aa77667b90dae4e6, type: 3}
+  storeDirectionalShadowDataShader: {fileID: 4800000, guid: 562c39c324fbe744cab856331ca4929f, type: 3}
+  storeDirectionalSpotCookieMapShader: {fileID: 4800000, guid: ad370ee3384eb644fa5e35f480a684d6, type: 3}
+  storePointShadowMapShader: {fileID: 4800000, guid: 70f2642b2eace7d4ca0a65b48c61e0dd, type: 3}
+  storePointCookieMapShader: {fileID: 4800000, guid: a174921e2513e36439947be27a3a3122, type: 3}
+  spriteLitShader: {fileID: 4800000, guid: 95ecd53d301333347bbf2ed1a38dd93e, type: 3}
+  spriteUnlitShader: {fileID: 4800000, guid: 435efc0be26d4eb45b6b1d9f5f2c7231, type: 3}
+  blueNoiseTextureArray: {fileID: 18700000, guid: 2a9933ebe2383b64ba6ff2c19cc2e88d, type: 2}
+  dummyTexture: {fileID: 2800000, guid: 16e13859a4e38144c97ba588a0c642d7, type: 3}
+  dummyTextureArray: {fileID: 18700000, guid: 6a391279acaf6b644b6b616b51965d2f, type: 2}
+  dummyTexture3D: {fileID: 11700000, guid: df2acd920eb85024bb7ae84cb277cd68, type: 2}
+  defaultSprite: {fileID: 21300000, guid: e29dd5bee73e59e45919d459b2cb8d59, type: 2}
+  storePointShadowMapMesh: {fileID: 4300000, guid: 2eb47a54c7b1d63489a4e6718f37018c, type: 2}
